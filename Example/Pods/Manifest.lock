@@ -1,0 +1,37 @@
+PODS:
+  - ErrorDispatcher/Alert (0.1.8)
+  - ErrorDispatcher/Core (0.1.8):
+    - ErrorDispatcher/Alert
+  - ErrorDispatcher/ReactiveSwift (0.1.8):
+    - ErrorDispatcher/Core
+    - ReactiveSwift (~> 5.0.0)
+    - Result (~> 4.1)
+  - ReactiveSwift (5.0.1):
+    - Result (~> 4.1)
+  - ReactiveSwiftCell (0.1.0):
+    - ErrorDispatcher/ReactiveSwift (~> 0.1.5)
+    - ReactiveSwift (~> 5.0)
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - ReactiveSwiftCell (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ErrorDispatcher
+    - ReactiveSwift
+    - Result
+
+EXTERNAL SOURCES:
+  ReactiveSwiftCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ErrorDispatcher: 563e16ac055591f24aff7b9507a40e9f494a871c
+  ReactiveSwift: cac20a5bbe560c5806bd29c0fccf90d03b996ac1
+  ReactiveSwiftCell: 8761d138d9d626bafef4d59f047a7f61af065eac
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: 9ae291acb9d18b868d4bd638438cd6c47eed4704
+
+COCOAPODS: 1.9.0.beta.2

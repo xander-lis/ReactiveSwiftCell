@@ -7,30 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0790B32524688ED300E3338B /* SwithCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B31724688ED100E3338B /* SwithCell.xib */; };
+		0790B32624688ED300E3338B /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B31824688ED100E3338B /* TextFieldCell.swift */; };
+		0790B32724688ED300E3338B /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B31924688ED100E3338B /* ButtonCell.xib */; };
+		0790B32824688ED300E3338B /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B31A24688ED200E3338B /* SliderCell.xib */; };
+		0790B32924688ED300E3338B /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B31B24688ED200E3338B /* TextViewCell.swift */; };
+		0790B32A24688ED300E3338B /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B31C24688ED200E3338B /* ButtonCell.swift */; };
+		0790B32B24688ED300E3338B /* SegmentControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B31D24688ED200E3338B /* SegmentControlCell.swift */; };
+		0790B32C24688ED300E3338B /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B31E24688ED200E3338B /* SliderCell.swift */; };
+		0790B32D24688ED300E3338B /* SegmentControlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B31F24688ED200E3338B /* SegmentControlCell.xib */; };
+		0790B32E24688ED300E3338B /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B32024688ED200E3338B /* TextFieldCell.xib */; };
+		0790B32F24688ED300E3338B /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B32124688ED200E3338B /* TextViewCell.xib */; };
+		0790B33024688ED300E3338B /* SwithCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B32224688ED200E3338B /* SwithCell.swift */; };
+		0790B33124688ED300E3338B /* StepperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0790B32324688ED200E3338B /* StepperCell.xib */; };
+		0790B33224688ED300E3338B /* StepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B32424688ED200E3338B /* StepperCell.swift */; };
+		0790B338246890A600E3338B /* ReactiveSwiftCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790B337246890A600E3338B /* ReactiveSwiftCell.framework */; };
+		0790B33C2468924D00E3338B /* Pods_ReactiveSwiftCell_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790B33B2468924D00E3338B /* Pods_ReactiveSwiftCell_Example.framework */; };
+		0790B33F246897A700E3338B /* UIButton+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790B33E246897A600E3338B /* UIButton+Extentions.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		76DA778B6193963050CC26A8 /* Pods_ReactiveSwiftCell_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3818B0FF3C771EFAF322EB1 /* Pods_ReactiveSwiftCell_Tests.framework */; };
-		FAAE4E50981495B9F7AA7CBE /* Pods_ReactiveSwiftCell_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671EC10737AD3C5D4396AA8 /* Pods_ReactiveSwiftCell_Example.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = ReactiveSwiftCell;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		09A4B41318C3B76F703321C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0790B31724688ED100E3338B /* SwithCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwithCell.xib; sourceTree = "<group>"; };
+		0790B31824688ED100E3338B /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		0790B31924688ED100E3338B /* ButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		0790B31A24688ED200E3338B /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		0790B31B24688ED200E3338B /* TextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		0790B31C24688ED200E3338B /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		0790B31D24688ED200E3338B /* SegmentControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControlCell.swift; sourceTree = "<group>"; };
+		0790B31E24688ED200E3338B /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		0790B31F24688ED200E3338B /* SegmentControlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentControlCell.xib; sourceTree = "<group>"; };
+		0790B32024688ED200E3338B /* TextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		0790B32124688ED200E3338B /* TextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewCell.xib; sourceTree = "<group>"; };
+		0790B32224688ED200E3338B /* SwithCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwithCell.swift; sourceTree = "<group>"; };
+		0790B32324688ED200E3338B /* StepperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepperCell.xib; sourceTree = "<group>"; };
+		0790B32424688ED200E3338B /* StepperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperCell.swift; sourceTree = "<group>"; };
+		0790B337246890A600E3338B /* ReactiveSwiftCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveSwiftCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790B33B2468924D00E3338B /* Pods_ReactiveSwiftCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ReactiveSwiftCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790B33E246897A600E3338B /* UIButton+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extentions.swift"; sourceTree = "<group>"; };
+		09A4B41318C3B76F703321C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		19171B32481188B399CE754A /* Pods-ReactiveSwiftCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCell_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveSwiftCell_Tests/Pods-ReactiveSwiftCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		26B84EDEBE11B602F8C81978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26B84EDEBE11B602F8C81978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ReactiveSwiftCell_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSwiftCell_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,15 +59,12 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* ReactiveSwiftCell_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSwiftCell_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7A57C832D60C453B9F42DF80 /* Pods-ReactiveSwiftCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCell_Example.release.xcconfig"; path = "Target Support Files/Pods-ReactiveSwiftCell_Example/Pods-ReactiveSwiftCell_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B671EC10737AD3C5D4396AA8 /* Pods_ReactiveSwiftCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E7A64AB69EA2F7355D93A9 /* Pods-ReactiveSwiftCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCell_Tests.release.xcconfig"; path = "Target Support Files/Pods-ReactiveSwiftCell_Tests/Pods-ReactiveSwiftCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5ABCCBEEAE964C1D7A8D47C /* Pods-ReactiveSwiftCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCell_Example.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveSwiftCell_Example/Pods-ReactiveSwiftCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F3818B0FF3C771EFAF322EB1 /* Pods_ReactiveSwiftCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB494FB5E210CDDFE5ADF0E5 /* ReactiveSwiftCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReactiveSwiftCell.podspec; path = ../ReactiveSwiftCell.podspec; sourceTree = "<group>"; };
+		FB494FB5E210CDDFE5ADF0E5 /* ReactiveSwiftCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReactiveSwiftCell.podspec; path = ../ReactiveSwiftCell.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,27 +72,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAE4E50981495B9F7AA7CBE /* Pods_ReactiveSwiftCell_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76DA778B6193963050CC26A8 /* Pods_ReactiveSwiftCell_Tests.framework in Frameworks */,
+				0790B33C2468924D00E3338B /* Pods_ReactiveSwiftCell_Example.framework in Frameworks */,
+				0790B338246890A600E3338B /* ReactiveSwiftCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0790B33324688EDE00E3338B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0790B31C24688ED200E3338B /* ButtonCell.swift */,
+				0790B31924688ED100E3338B /* ButtonCell.xib */,
+				0790B31D24688ED200E3338B /* SegmentControlCell.swift */,
+				0790B31F24688ED200E3338B /* SegmentControlCell.xib */,
+				0790B31E24688ED200E3338B /* SliderCell.swift */,
+				0790B31A24688ED200E3338B /* SliderCell.xib */,
+				0790B32424688ED200E3338B /* StepperCell.swift */,
+				0790B32324688ED200E3338B /* StepperCell.xib */,
+				0790B32224688ED200E3338B /* SwithCell.swift */,
+				0790B31724688ED100E3338B /* SwithCell.xib */,
+				0790B31824688ED100E3338B /* TextFieldCell.swift */,
+				0790B32024688ED200E3338B /* TextFieldCell.xib */,
+				0790B31B24688ED200E3338B /* TextViewCell.swift */,
+				0790B32124688ED200E3338B /* TextViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		0790B3402468A10900E3338B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0790B33E246897A600E3338B /* UIButton+Extentions.swift */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ReactiveSwiftCell */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BCB801B9BA3A0F0EBFBD2F8D /* Pods */,
 				995B3598B1B27217BD8E3769 /* Frameworks */,
@@ -85,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* ReactiveSwiftCell_Example.app */,
-				607FACE51AFB9204008FA782 /* ReactiveSwiftCell_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +134,8 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				0790B33324688EDE00E3338B /* Cell */,
+				0790B3402468A10900E3338B /* Extentions */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ReactiveSwiftCell";
@@ -107,24 +145,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +165,8 @@
 		995B3598B1B27217BD8E3769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0790B33B2468924D00E3338B /* Pods_ReactiveSwiftCell_Example.framework */,
+				0790B337246890A600E3338B /* ReactiveSwiftCell.framework */,
 				B671EC10737AD3C5D4396AA8 /* Pods_ReactiveSwiftCell_Example.framework */,
 				F3818B0FF3C771EFAF322EB1 /* Pods_ReactiveSwiftCell_Tests.framework */,
 			);
@@ -156,7 +181,6 @@
 				19171B32481188B399CE754A /* Pods-ReactiveSwiftCell_Tests.debug.xcconfig */,
 				B8E7A64AB69EA2F7355D93A9 /* Pods-ReactiveSwiftCell_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -182,25 +206,6 @@
 			productReference = 607FACD01AFB9204008FA782 /* ReactiveSwiftCell_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* ReactiveSwiftCell_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ReactiveSwiftCell_Tests" */;
-			buildPhases = (
-				D1A9B6E59C015A725C420F52 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = ReactiveSwiftCell_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* ReactiveSwiftCell_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,11 +220,6 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
-					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ReactiveSwiftCell" */;
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +237,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* ReactiveSwiftCell_Example */,
-				607FACE41AFB9204008FA782 /* ReactiveSwiftCell_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,16 +246,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0790B32824688ED300E3338B /* SliderCell.xib in Resources */,
+				0790B32D24688ED300E3338B /* SegmentControlCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0790B33124688ED300E3338B /* StepperCell.xib in Resources */,
+				0790B32E24688ED300E3338B /* TextFieldCell.xib in Resources */,
+				0790B32524688ED300E3338B /* SwithCell.xib in Resources */,
+				0790B32724688ED300E3338B /* ButtonCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0790B32F24688ED300E3338B /* TextViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +269,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ReactiveSwiftCell_Example/Pods-ReactiveSwiftCell_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ErrorDispatcher/ErrorDispatcher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwiftCell/ReactiveSwiftCell.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorDispatcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwiftCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,28 +308,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1A9B6E59C015A725C420F52 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveSwiftCell_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -332,27 +316,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0790B33024688ED300E3338B /* SwithCell.swift in Sources */,
+				0790B33224688ED300E3338B /* StepperCell.swift in Sources */,
+				0790B32C24688ED300E3338B /* SliderCell.swift in Sources */,
+				0790B32B24688ED300E3338B /* SegmentControlCell.swift in Sources */,
+				0790B32924688ED300E3338B /* TextViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				0790B32A24688ED300E3338B /* ButtonCell.swift in Sources */,
+				0790B33F246897A700E3338B /* UIButton+Extentions.swift in Sources */,
+				0790B32624688ED300E3338B /* TextFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* ReactiveSwiftCell_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -479,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactiveSwiftCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,52 +471,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactiveSwiftCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19171B32481188B399CE754A /* Pods-ReactiveSwiftCell_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSwiftCell_Example.app/ReactiveSwiftCell_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8E7A64AB69EA2F7355D93A9 /* Pods-ReactiveSwiftCell_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSwiftCell_Example.app/ReactiveSwiftCell_Example";
 			};
 			name = Release;
 		};
@@ -560,15 +498,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ReactiveSwiftCell_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 # ReactiveSwiftCell
 
-[![CI Status](https://img.shields.io/travis/Aleksandr Chegoshev/ReactiveSwiftCell.svg?style=flat)](https://travis-ci.org/Aleksandr Chegoshev/ReactiveSwiftCell)
+[![CI Status](https://img.shields.io/travis/Aleksandr Lis/ReactiveSwiftCell.svg?style=flat)](https://travis-ci.org/Aleksandr Lis/ReactiveSwiftCell)
 [![Version](https://img.shields.io/cocoapods/v/ReactiveSwiftCell.svg?style=flat)](https://cocoapods.org/pods/ReactiveSwiftCell)
 [![License](https://img.shields.io/cocoapods/l/ReactiveSwiftCell.svg?style=flat)](https://cocoapods.org/pods/ReactiveSwiftCell)
 [![Platform](https://img.shields.io/cocoapods/p/ReactiveSwiftCell.svg?style=flat)](https://cocoapods.org/pods/ReactiveSwiftCell)
@@ -22,7 +22,7 @@ pod 'ReactiveSwiftCell'
 
 ## Author
 
-Aleksandr Chegoshev, achegoshev@dnomads.pro
+Aleksandr Lis, xandr.lisss@gmail.com
 
 ## License
 

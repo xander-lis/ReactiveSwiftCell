@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'ReactiveSwiftCell_Example' do
   pod 'ReactiveSwiftCell', :path => '../'
-
-  target 'ReactiveSwiftCell_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

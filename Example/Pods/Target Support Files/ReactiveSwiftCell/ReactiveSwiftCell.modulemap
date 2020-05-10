@@ -1,0 +1,6 @@
+framework module ReactiveSwiftCell {
+  umbrella header "ReactiveSwiftCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="132" id="xPr-CF-GwA" customClass="SliderCell" customModule="ReactiveCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xPr-CF-GwA" id="zgd-rH-N9b">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HUf-1T-Leh">
+                        <rect key="frame" x="14" y="72.5" width="292" height="31"/>
+                        <color key="tintColor" red="0.08235294118" green="0.31372549020000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="thumbTintColor" red="0.08235294118" green="0.31372549020000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="touchUpInside:" destination="xPr-CF-GwA" eventType="touchUpInside" id="bem-ek-OPf"/>
+                            <action selector="valueChanged:" destination="xPr-CF-GwA" eventType="valueChanged" id="454-wD-SZb"/>
+                        </connections>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wd-bt-MEj">
+                        <rect key="frame" x="16" y="102.5" width="27" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.098039215690000001" green="0.20000000000000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvd-4n-mDC">
+                        <rect key="frame" x="277" y="102.5" width="27" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.098039215690000001" green="0.20000000000000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RR-9m-aHl">
+                        <rect key="frame" x="16" y="52.5" width="27" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.098039215690000001" green="0.20000000000000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjN-Y6-tfG">
+                        <rect key="frame" x="16" y="16" width="44" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qjN-Y6-tfG" firstAttribute="leading" secondItem="HUf-1T-Leh" secondAttribute="leading" id="1HY-sm-RaU"/>
+                    <constraint firstItem="lvd-4n-mDC" firstAttribute="top" secondItem="6Wd-bt-MEj" secondAttribute="top" id="4YC-9J-pFF"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="6Wd-bt-MEj" secondAttribute="bottom" constant="8.5" id="7AL-lp-oxt"/>
+                    <constraint firstItem="6Wd-bt-MEj" firstAttribute="top" secondItem="HUf-1T-Leh" secondAttribute="bottom" id="9yC-yr-rYC"/>
+                    <constraint firstItem="6Wd-bt-MEj" firstAttribute="leading" secondItem="HUf-1T-Leh" secondAttribute="leading" id="Fnt-Qu-xHd"/>
+                    <constraint firstItem="lvd-4n-mDC" firstAttribute="bottom" secondItem="6Wd-bt-MEj" secondAttribute="bottom" id="NM1-1X-e5F"/>
+                    <constraint firstItem="lvd-4n-mDC" firstAttribute="trailing" secondItem="HUf-1T-Leh" secondAttribute="trailing" id="OrW-PJ-VaD"/>
+                    <constraint firstItem="HUf-1T-Leh" firstAttribute="leading" secondItem="zgd-rH-N9b" secondAttribute="leading" constant="16" id="i0d-IT-b5O"/>
+                    <constraint firstItem="1RR-9m-aHl" firstAttribute="top" secondItem="qjN-Y6-tfG" secondAttribute="bottom" constant="15.5" id="k1l-0q-MQL"/>
+                    <constraint firstAttribute="trailing" secondItem="HUf-1T-Leh" secondAttribute="trailing" constant="16" id="rEA-PL-I1y"/>
+                    <constraint firstItem="HUf-1T-Leh" firstAttribute="top" secondItem="1RR-9m-aHl" secondAttribute="bottom" constant="8" id="tDZ-Mk-d8o"/>
+                    <constraint firstItem="qjN-Y6-tfG" firstAttribute="top" secondItem="zgd-rH-N9b" secondAttribute="top" constant="16" id="vlj-cR-IMK"/>
+                    <constraint firstItem="1RR-9m-aHl" firstAttribute="leading" secondItem="HUf-1T-Leh" secondAttribute="leading" id="zaN-RV-zUw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Jfa-5F-lDv"/>
+            <connections>
+                <outlet property="maxValueLabel" destination="lvd-4n-mDC" id="SZL-fY-of4"/>
+                <outlet property="minValueLabel" destination="6Wd-bt-MEj" id="3gE-Sw-iEC"/>
+                <outlet property="sliderView" destination="HUf-1T-Leh" id="Ffx-Ds-LMQ"/>
+                <outlet property="valueLabel" destination="1RR-9m-aHl" id="QQ4-Ja-Bii"/>
+                <outlet property="valueLeftConstraint" destination="zaN-RV-zUw" id="HuX-Ht-kbI"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="127.23214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
